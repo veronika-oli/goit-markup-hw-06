@@ -721,6 +721,11 @@ address {
 
 /*  "Приєднуйтесь" Соціальні мережі в футері */
 
+.join {
+  margin-right: 93px;
+}
+
+
 .social-list-title {
     color: var(--white-color);
     font-weight: 700;
@@ -752,12 +757,10 @@ address {
 /* Підпишіться на розсилку */
 
 .subscribe {
-  display: flex;
-  align-items: flex-end
 }
 
 .subscribe-form {
-  margin-left: 93px;
+  display: flex;
 }
 
 .subscribe-form input {
@@ -910,8 +913,10 @@ address {
   border-top: 0;
 }
 
-
-/* Модальне вікно */
+.project-link-wrapper {
+  position: relative;
+  overflow: hidden;
+}
 
 .overlay {
   position: absolute;
@@ -937,6 +942,8 @@ address {
   transform: translateY(0%);
 }
 
+
+/* Модальне вікно */
 
 
 .backdrop {
